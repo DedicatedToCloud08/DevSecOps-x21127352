@@ -10,8 +10,7 @@ phases:
  pre_build:
   commands:
    - python --version
-   - pylint furniture/*.py
-   - pylint OnlineFurnitureShop/*.py
+   - pylint **/*.py
 artifacts:
  files:
   - '**/*'
