@@ -15,6 +15,7 @@
     <center>
     <div class="container">
         <table class="table table-bordered" id="myTable">
+            <caption>Details</caption>
   <thead>
   <tr>
     <th>Image</th>
@@ -31,7 +32,7 @@
     {% for i in user %}
   <tr>
 
-    <td><img src="{{i.image.url}}" style="width:100px;height:90px"></td>
+    <td><img src="{{i.image.url}}" style="width:100px;height:90px" alt="Image"></td>
     <td>{{i.user.first_name}}</td>
     <td>{{i.user.last_name}}</td>
       <td>{{i.contact}}</td>
