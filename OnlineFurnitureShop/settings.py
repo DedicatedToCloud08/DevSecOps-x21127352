@@ -25,7 +25,7 @@ SECRET_KEY = 'w@ntan-h=h%_o9cs#!x&=*fo=^4f76@el9#r#+a&n1ebw#@ros'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['x21127352-onlinefurniture-env.eba-efvsvtm3.eu-west-1.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['568c60509ca5468d9e538614484766ea.vfs.cloud9.eu-west-1.amazonaws.com','x21127352-onlinefurniture-env.eba-efvsvtm3.eu-west-1.elasticbeanstalk.com']
 
 
 # Application definition
